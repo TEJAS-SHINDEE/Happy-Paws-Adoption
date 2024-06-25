@@ -3,7 +3,7 @@
 Welcome to the Pet Adoption Web Page project! 
 This is a static website designed to help users find and adopt pets. 
  
-![Alt text](sc-one.png?raw=true "Title")
+![Alt text](sc-one.png?raw=true "web output")
 
 
 ## About the Project
