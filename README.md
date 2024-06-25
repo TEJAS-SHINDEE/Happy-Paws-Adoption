@@ -3,7 +3,7 @@
 Welcome to the Pet Adoption Web Page project! 
 This is a static website designed to help users find and adopt pets. 
 
-![PetAdoptHub](https://path-to-your-image.com/website-screenshot.png)
+![PetAdoptHub]("./assets/sc-one.png")
 
 ## About the Project
 
