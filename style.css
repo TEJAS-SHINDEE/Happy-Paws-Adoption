@@ -1,7 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body  {
   background-image: url("back.jpeg");
   background-size: cover;
 }
+
+/* .sub-header   {
+  height: 1rem;
+  width: 100%;
+  background-color: rgb(124, 10, 158);
+} */
+
+/* Navbar styling */
+nav {
+  background-color: #343a40;
+  padding: 1em 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+/* Responsive navbar */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5em 0;
+  }
+}
+
+/* Additional styling for active link (if needed) */
+nav ul li a.active {
+  color: #ffc107;
+}
+
+/* .back-img {
+  height: 100vh;
+  width: 100%;
+  opacity: 0.8;
+  background-image: url("./assets/back.avif");
+  background-size: cover;
+} */
+
+/* .overlay-img {
+  position: absolute;
+  background-image: url("./assets/second.webp");
+  background-size: cover;
+  top: 50%; Adjust to position the overlay image
+  left: 50%; Adjust to position the overlay image
+  transform: translate(-50%, -50%); Centers the overlay image
+  width: 100px; Adjust the size of the overlay image
+  height: auto; Maintains the aspect ratio
+} */
 
 .main   {
   height: 100vh;
@@ -10,7 +85,7 @@ body  {
 
 .msg  {
   position: absolute;
-  top: 10px;
+  top: 60px;
   right: 300px;
   font-size: 1.8rem;
   font-weight: 700;
@@ -28,6 +103,7 @@ body  {
 .webname   {
   text-align: center;
   display: inline-block;
+  justify-items: center;
 }
 
 img {
@@ -38,6 +114,7 @@ img {
 
 h2 {
   color: #d56f3e;
+  justify-content: center;
 }
 
 span {
