@@ -2,8 +2,9 @@
 
 Welcome to the Pet Adoption Web Page project! 
 This is a static website designed to help users find and adopt pets. 
+ 
+![Alt text](sc-one.png?raw=true "Title")
 
-![PetAdoptHub]("./assets/sc-one.png")
 
 ## About the Project
 
@@ -23,7 +24,8 @@ To view or edit this project, you need a web browser and a text editor (like VS 
    ```bash
    git clone https://github.com/YOUR_GITHUB_USERNAME/REPOSITORY_NAME.git
 2. Navigate to the project directory:
-  > cd REPOSITORY_NAME
+   ```bash
+   cd REPOSITORY_NAME
 3. Open the index.html file in your web browser to view the website.
 
 
@@ -33,10 +35,20 @@ To view or edit this project, you need a web browser and a text editor (like VS 
   For development, use any text editor to edit the HTML, CSS, and JavaScript files.
 
 
-HTML Files
+### HTML Files
   index.html: Home page of the website.
-CSS
+### CSS Files 
   styles.css: CSS file for styling the website.
-Assets
+### Assets
   pet-images/: Directory to store images of pets available for adoption.
 
+## Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+## Fork the Project
+   Create your Feature Branch (git checkout -b feature/AmazingFeature)
+   Commit your Changes (git commit -m 'Add some AmazingFeature')
+   Push to the Branch (git push origin feature/AmazingFeature)
+   Open a Pull Request
+
+## View Project : https://github.com/YOUR_GITHUB_USERNAME/REPOSITORY_NAME
